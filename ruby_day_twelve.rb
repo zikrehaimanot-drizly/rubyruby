@@ -19,15 +19,21 @@ def paul(x)
           "life" => 0,
           "eating" => 1}
   x.each do |y|
-   final += score["#{y}"]
+   final += score[y]
   end
   if 40 > final
     'Super happy!'
-  elsif final >= 40 && final < 70
+  elsif final < 70
     'Happy!'
-  elsif final >= 70 && final < 100
+  elsif final < 100
     'Sad!'
   else
     'Miserable!'
   end
 end
+
+# could have used the reduce method as well 
+#
+# x.reduce(0) do |acc, y|
+#   sum += score[y]
+# end
