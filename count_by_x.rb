@@ -4,7 +4,7 @@
 #
 # Return the results as an array (or list in Python, Haskell or Elixir).
 #
-# Examples:
+
 
 
 def count_by(x, n)
