@@ -1,1 +1,1 @@
-This is a repo to track coding challenges I'm using to learn Ruby.
+Coding challenges completed in Ruby
